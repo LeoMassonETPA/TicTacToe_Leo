@@ -37,6 +37,9 @@ def testVictoireVerticale(grille[9]):
     return(False)
 
 def testVictoireDiagonale (grille[9]):
-    if(grille[compteur] != " " and grile[4] = grille[0] and grille[4] = grille[8]
+    if(grille[compteur] != " " and grille[4] = grille[0] and grille[4] = grille[8]
         return(True)
-    if(grille[compteur] != " " and grille[4]
+    if(grille[compteur] != " " and grille[4] = grille[2] and grille[4] = grille[6]
+        return(True)
+    return(False)
+    
