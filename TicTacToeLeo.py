@@ -4,4 +4,3 @@ def initialiseGrille (grille[9]):
         grille[compteur] = "_"
     return()
     
-zfhZFDd
