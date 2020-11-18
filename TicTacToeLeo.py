@@ -1,7 +1,7 @@
 def initialiseGrille(grille[9]):
     compteur = 0
     for compteur in range(0,9):
-        grille[compteur] = "_"
+        grille[compteur] = " "
     return()
 
 def afficheGrille(grille[9]):
@@ -17,7 +17,26 @@ def ajouteSymbole(grille[9], joueur):
     while (choixIncorrect = True):
         i = int(input("Sur quelle ligne voulez vous jouer ?"))
         j = int(input("Sur quelle colonne voulez vous jouer ?"))
-        if(grille[3*i+j]!="_")
-            grille[3*i+j]!="_" = joueur
+        if(grille[3*i+j] != " ")
+            grille[3*i+j] != " " = joueur
             choixIncorrect = False
     return()
+    
+def testVictoireHorizontale(grille[9]):
+    compteur = 0
+    while(compteur<3):
+        if(grille[compteur] != " " and grille[compteur*3] = grille[compteur*3+1] and grille[compteur*3] = grille[compteur*3+2]):
+            return(True)
+    return(False)
+           
+def testVictoireVerticale(grille[9]):
+    compteur = 0
+    while(compteur<3):
+        if(grille[compteur] != " " and grille[compteur] = grille[compteur+3] and grille[compteur] = grille[compteur+6]
+            return(True)
+    return(False)
+
+def testVictoireDiagonale (grille[9]):
+    if(grille[compteur] != " " and grile[4] = grille[0] and grille[4] = grille[8]
+        return(True)
+    if(grille[compteur] != " " and grille[4]
